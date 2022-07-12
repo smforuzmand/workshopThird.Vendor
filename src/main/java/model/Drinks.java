@@ -3,8 +3,8 @@ package model;
 public class Drinks extends Product {
 
     public Drinks(String productName, double price) {
-        super.getProductName();
-        super.getPrice();
+        super.setProductName(productName);
+        super.setPrice(price);
         super.id = 3;
     }
 
@@ -35,7 +35,7 @@ public class Drinks extends Product {
 
     @Override
     public String toString() {
-        return "Sandwich{" +
+        return "Drinks{" +
                 "id=" + id +
                 ", price=" + price +
                 ", productName='" + productName + '\'' +
